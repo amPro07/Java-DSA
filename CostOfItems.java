@@ -11,6 +11,6 @@ public class CostOfItems {
 
     float newTotal = (float) (total + (0.18 * total));
     System.out.println("Bill with 18% tax: "+ newTotal);
-
+    s.close();
     }
 }
